@@ -7,8 +7,8 @@ int main() {
     cin >> age[0] >> gender[0];
     cin >> age[1] >> gender[1];
 
-    bool cond1 = age[0] >= 19 || gender[0] == 'M';
-    bool cond2 = age[1] >= 19 || gender[1] == 'M';
+    bool cond1 = age[0] >= 19 && gender[0] == 'M';
+    bool cond2 = age[1] >= 19 && gender[1] == 'M';
 
     if (cond1 || cond2) cout << 1;
     else cout << 0;
