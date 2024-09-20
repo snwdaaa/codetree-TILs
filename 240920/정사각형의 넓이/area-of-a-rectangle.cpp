@@ -5,13 +5,11 @@ int main() {
     int len;
     cin >> len;
 
+    cout << len * len;
+
     if (len < 5)
     {
         cout << "tiny";
-    }
-    else
-    {
-        cout << len * len;
     }
 
     return 0;
