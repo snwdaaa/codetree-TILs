@@ -5,7 +5,7 @@ int main() {
     int len;
     cin >> len;
 
-    cout << len * len;
+    cout << len * len << '\n';
 
     if (len < 5)
     {
