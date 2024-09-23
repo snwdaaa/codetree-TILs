@@ -9,7 +9,7 @@ int main() {
 
     int i = 1;
     int cnt = 0;
-    while (n >= 1)
+    while (n > 1)
     {
         n /= i;
         i++;
